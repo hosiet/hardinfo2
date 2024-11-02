@@ -53,7 +53,7 @@ processor_scan(void)
 
     fclose(cpuinfo);
 
-    return g_slist_append(NULL, processor);q
+    return g_slist_append(NULL, processor);
 }
 
 gchar *processor_name(GSList * processors) {
